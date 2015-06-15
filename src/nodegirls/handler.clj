@@ -53,7 +53,15 @@
             [:h3 "Para todas"]
             [:p "Nós achamos que programar é fantástico e todas devem se sentir bem vindas em nosso evento. Isto inclui a nossa expectativa de que todas as participantes sejam gentis umas as outras e respeitem o nosso " [:a {:href "/codigo-de-conduta"} "Codigo de Conduta"]]]
 
-          ]]]
+          ]]
+      [:section {:id "help" :class "site-section section-signup"}
+        [:div {:class "row"}
+          [:div {:class "twelve columns animate-on-scroll" :data-scrollanimation "fadeDownIn"}
+            [:h3 {:class "signup-title"} "Especialmente para elas!"]
+            [:h4 {:class "signup-subtitle"} "Nosso evento é 100% dedicado para mulheres! Se você estiver interessado e não atende nosso principal requisito, não exite e fale com a gente!"]
+          ]]
+        [:div {:class "row"}]
+      ]]
     
     ))
 
