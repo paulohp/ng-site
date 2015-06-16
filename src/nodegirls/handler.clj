@@ -60,8 +60,32 @@
             [:h3 {:class "signup-title"} "Especialmente para elas!"]
             [:h4 {:class "signup-subtitle"} "Nosso evento é 100% dedicado para mulheres! Se você estiver interessado e não atende nosso principal requisito, não exite e fale com a gente!"]
           ]]
-        [:div {:class "row"}]
+        [:div {:class "row"}
+          [:div {:class "eight columns centered"}
+            [:div {:class "signup-form"}
+              [:a {:href "http://even.tc/nodeschool-bh" :class "btn-side animate-on-scroll" :data-scrollanimation "fadeInLeft"} [:i {:class "icon-ticket"}] "Inscreva-se"]
+            ]]]
+      ]
+      [:section {:class "site-section"}
+        [:div {:class "row"}
+          [:div {:class "twelve columns animate-on-scroll" :data-scrollanimation "fadeDownIn"}
+            [:h3 "Dúvidas? Sugestões?"]
+            [:h4 "Abra uma issue no " [:a {:href "https://github.com/nodeschool/belo-horizonte" } "GitHub"]  " e nos ajude!"]
+            [:p "Se você ainda não estiver no GitHub, crie uma  " [:a {:href "https://github.com/join"} "conta gratuita"] " e de uma olhada no " [:a {:href "http://nodeschool.io/#git-it"} "Git-it "] "workshop. Isso com certeza vai te ajudar a começar."]
+          ]]
       ]]
+
+      [:footer {:class "site-footer" :role "contentinfo"}
+        [:div {:class "row footer-info"}
+          [:div {:class "six columns"}
+            [:h3 "Apoio: "]
+            [:a {:target "_blank", :href "http://www.minasdev.org/"}  
+             [:img {:width "150", :src "http://minasdev.org/assets/images/svgs/minasdev-logo.svg", :alt "MinasDev"}] ]
+             [:a {:target "_blank", :href "http://www.gdgbh.org/"}  
+             [:img {:width "150", :src "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/11021194_790772184325398_1886863645796117655_n.jpg?oh=edbac5ca743c59e878caaef2e50fe067&oe=55FDD52D&__gda__=1441611684_ef4b104d5c757e202c7d920aa549a231", :alt "GDG-BH"}] ]
+          ]
+        ]
+      ]
     
     ))
 

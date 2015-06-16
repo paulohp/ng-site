@@ -37,9 +37,9 @@
 }
 
 .signup-form .btn-side:hover {
-  border-color: rgb(236,234,213);
-  color: rgb(92,0,50);
-  background-color: rgb(236,234,213);
+  border-color: #F0E6EF;
+  color: #9C89B8;
+  background-color: #F0E6EF;
 }
 
 /* end color overrides */
@@ -56,8 +56,8 @@ header .row { z-index: 2; position: relative; }
 .dat { margin-right: 35px; position: relative; top: 20px; }
 
 .site-header {
-  background-position: 52% -150px;
-  background-image: url("../img/belohorizonte.jpg");
+  background-position: 52% -550px;
+  background-image: url("https://www.katescomment.com/wordpress/wp-content/uploads/2009/10/girl-tech.jpg");
 }
 
 #subheadline, #subheadline a {
@@ -96,7 +96,7 @@ header .row { z-index: 2; position: relative; }
 }
 
 .site-footer {
-  background-color: #22A7F0;
+  background-color: #F0A6CA;
 }
 
 #whatweuse .two, #whatweuse h2 {
