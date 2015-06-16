@@ -58,7 +58,7 @@
         [:div {:class "row"}
           [:div {:class "twelve columns animate-on-scroll" :data-scrollanimation "fadeDownIn"}
             [:h3 {:class "signup-title"} "Especialmente para elas!"]
-            [:h4 {:class "signup-subtitle"} "Nosso evento é 100% dedicado para mulheres! Se você estiver interessado e não atende nosso principal requisito, não exite e fale com a gente!"]
+            [:h4 {:class "signup-subtitle"} "Nosso evento é 100% dedicado para mulheres! Se você estiver interessado e não atende nosso principal requisito, não hesite e fale com a gente!"]
           ]]
         [:div {:class "row"}
           [:div {:class "eight columns centered"}
