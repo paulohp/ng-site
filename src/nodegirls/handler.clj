@@ -22,7 +22,7 @@
       [:div {:class "row"}
         [:div {:id "header" :class "twelve columns header-intro-wrap fadeUpIn"} 
           [:h1 {:class "logo"} "NodeGirls"]
-          [:p {:id "subheadline"} "Proximo Evento: " [:a {:href "http://even.tc/nodeschool-bh"} "25 de Julho"]]]]]
+          [:p {:id "subheadline"} "Proximo Evento: " [:a {:href "https://www.sympla.com.br/node-school-girl__36092"} "25 de Julho"]]]]]
     
     [:main {:role "main" :class "site-main-content"}
       [:section {:id "about" :class "site-section section-features" :data-target "features"}
@@ -63,7 +63,7 @@
         [:div {:class "row"}
           [:div {:class "eight columns centered"}
             [:div {:class "signup-form"}
-              [:a {:href "http://even.tc/nodeschool-bh" :class "btn-side animate-on-scroll" :data-scrollanimation "fadeInLeft"} [:i {:class "icon-ticket"}] "Inscreva-se"]
+              [:a {:href "https://www.sympla.com.br/node-school-girl__36092" :class "btn-side animate-on-scroll" :data-scrollanimation "fadeInLeft"} [:i {:class "icon-ticket"}] "Inscreva-se"]
             ]]]
       ]
       [:section {:class "site-section"}
