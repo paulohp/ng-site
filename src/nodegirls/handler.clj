@@ -51,7 +51,7 @@
                ]
              ]
             [:h3 "Para todas"]
-            [:p "Nós achamos que programar é fantástico e todas devem se sentir bem vindas em nosso evento. Isto inclui a nossa expectativa de que todas as participantes sejam gentis umas as outras e respeitem o nosso " [:a {:href "/codigo-de-conduta"} "Codigo de Conduta"]]]
+            [:p "Nós achamos que programar é fantástico e todas devem se sentir bem vindas em nosso evento. Isto inclui a nossa expectativa de que todas as participantes sejam gentis umas as outras e respeitem o nosso " [:a {:href "https://github.com/nodeschool/belo-horizonte/blob/master/CODIGO-DE-CONDUTA.md"} "Codigo de Conduta"]]]
 
           ]]
       [:section {:id "help" :class "site-section section-signup"}
