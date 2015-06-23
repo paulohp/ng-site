@@ -80,7 +80,7 @@
       [:footer {:class "site-footer" :role "contentinfo"}
         [:div {:class "row footer-info"}
           [:div {:class "twelve columns"}
-            [:h3 "Patrocinio: "]
+            [:h3 "Patrocínio: "]
             [:a {:target "_blank", :href "http://avenuecode.com"}
              [:img {:width "150", :src "http://frontinbh.com.br/images/sponsor-gold-avenue.png", :alt "Avenue Code"}] ]
           ]
