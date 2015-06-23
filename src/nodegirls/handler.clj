@@ -20,10 +20,10 @@
   (view-layout
     [:header {:role "banner" :class "site-header parallax"}
       [:div {:class "row"}
-        [:div {:id "header" :class "twelve columns header-intro-wrap fadeUpIn"} 
+        [:div {:id "header" :class "twelve columns header-intro-wrap fadeUpIn"}
           [:h1 {:class "logo"} "NodeGirls"]
           [:p {:id "subheadline"} "Proximo Evento: " [:a {:href "https://www.sympla.com.br/node-school-girl__36092"} "25 de Julho"]]]]]
-    
+
     [:main {:role "main" :class "site-main-content"}
       [:section {:id "about" :class "site-section section-features" :data-target "features"}
         [:ul {:class "row features-list"}
@@ -43,7 +43,7 @@
              ]
             [:h3 "Auto Guiado"]
             [:p "Você passará por vários desafios auto guiados. Nada de palestras entediantes. Todos os desafios são open source e estão disponíveis online em NodeSchool.io Isto significa que você pode continuar aprendendo após o evento."]]
-          
+
           [:li {:class "features-item"}
             [:span {:class "features-circle"}
               [:span {:class "features-circle-icon"}
@@ -80,13 +80,23 @@
       [:footer {:class "site-footer" :role "contentinfo"}
         [:div {:class "row footer-info"}
           [:div {:class "twelve columns"}
-            [:h3 "Apoio: "]
+            [:h3 "Patrocinio: "]
+            [:a {:target "_blank", :href "http://avenuecode.com"}
+             [:img {:width "150", :src "http://frontinbh.com.br/images/sponsor-gold-avenue.png", :alt "Avenue Code"}] ]
+          ]
+          [:div {:class "twelve columns alpha"}
+            [:h3 "Realização: "]
             [:a {:target "_blank", :href "http://www.minasdev.org/"}
              [:img {:width "150", :src "http://minasdev.org/assets/images/svgs/minasdev-logo.svg", :alt "MinasDev"}] ]
             [:a {:target "_blank", :href "http://www.gdgbh.org/"}
              [:img {:width "150", :src "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/11021194_790772184325398_1886863645796117655_n.jpg?oh=edbac5ca743c59e878caaef2e50fe067&oe=55FDD52D&__gda__=1441611684_ef4b104d5c757e202c7d920aa549a231", :alt "GDG-BH"}] ]
-            [:a {:target "_blank", :href "http://avenuecode.com"}
-             [:img {:width "150", :src "http://frontinbh.com.br/images/sponsor-gold-avenue.png", :alt "Avenue Code"}] ]
+          ]
+          [:div {:class "twelve columns alpha"}
+            [:h3 "Apoio: "]
+            [:a {:target "_blank", :href "http://www.digitalocean.com"}
+             [:img {:width "150", :src "http://arcannia.me/wp-content/uploads/2015/04/digitalocean-square-logo-535x535.png", :alt "Digital Ocean"}] ]
+            [:a {:target "_blank", :href "http://www.strongloop.com"}
+             [:img {:width "150" :style "background-color:white" :src "https://upload.wikimedia.org/wikipedia/en/1/11/StrongLoop_logo.png", :alt "Strong Loop"}] ]
           ]
         ]
       ]
