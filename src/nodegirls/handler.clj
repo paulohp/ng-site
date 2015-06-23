@@ -66,6 +66,8 @@
               [:a {:href "https://www.sympla.com.br/node-school-girl__36092" :class "btn-side animate-on-scroll" :data-scrollanimation "fadeInLeft"} [:i {:class "icon-ticket"}] "Inscreva-se"]
             ]]]
       ]
+      [:iframe {:frameborder "0" :style "border:0" :height "450" :width "100%" :src "https://www.google.com/maps/embed/v1/place?q=UNA%20-%20Campus%20Barro%20Preto%20-%20Rua%20dos%20Goitacazes%20-%20Barro%20Preto%2C%20Belo%20Horizonte%20-%20State%20of%20Minas%20Gerais%2C%20Brazil&key=AIzaSyBUOhDWXCubrzzVBRHVES8u1kyN0fQiZxA"}]
+
       [:section {:class "site-section"}
         [:div {:class "row"}
           [:div {:class "twelve columns animate-on-scroll" :data-scrollanimation "fadeDownIn"}
