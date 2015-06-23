@@ -77,16 +77,17 @@
 
       [:footer {:class "site-footer" :role "contentinfo"}
         [:div {:class "row footer-info"}
-          [:div {:class "six columns"}
+          [:div {:class "twelve columns"}
             [:h3 "Apoio: "]
-            [:a {:target "_blank", :href "http://www.minasdev.org/"}  
+            [:a {:target "_blank", :href "http://www.minasdev.org/"}
              [:img {:width "150", :src "http://minasdev.org/assets/images/svgs/minasdev-logo.svg", :alt "MinasDev"}] ]
-             [:a {:target "_blank", :href "http://www.gdgbh.org/"}  
+            [:a {:target "_blank", :href "http://www.gdgbh.org/"}
              [:img {:width "150", :src "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/11021194_790772184325398_1886863645796117655_n.jpg?oh=edbac5ca743c59e878caaef2e50fe067&oe=55FDD52D&__gda__=1441611684_ef4b104d5c757e202c7d920aa549a231", :alt "GDG-BH"}] ]
+            [:a {:target "_blank", :href "http://avenuecode.com"}
+             [:img {:width "150", :src "http://frontinbh.com.br/images/sponsor-gold-avenue.png", :alt "Avenue Code"}] ]
           ]
         ]
       ]
-    
     ))
 
 (defroutes app-routes
