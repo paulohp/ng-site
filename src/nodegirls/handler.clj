@@ -97,6 +97,8 @@
              [:img {:width "150", :src "http://arcannia.me/wp-content/uploads/2015/04/digitalocean-square-logo-535x535.png", :alt "Digital Ocean"}] ]
             [:a {:target "_blank", :href "http://www.strongloop.com"}
              [:img {:width "150" :style "background-color:white" :src "https://upload.wikimedia.org/wikipedia/en/1/11/StrongLoop_logo.png", :alt "Strong Loop"}] ]
+            [:a {:target "_blank", :href "http://www.jetbrains.com"}
+             [:img {:width "150" :height "150" :style "background-color:white;height: 150;" :src "https://www.jetbrains.com/company/docs/logo_jetbrains.svg", :alt "JetBrains"}] ]
           ]
         ]
       ]
