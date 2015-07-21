@@ -11,6 +11,11 @@
     [:head
      [:meta {:http-equiv "Content-type" :content "text/html;charset=utf-8"}]
      [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0, maximum-scale=1"}]
+     [:meta {:property "og:url" :content "http://nodegirls.com"}]
+     [:meta {:property "og:title" :content "Node Girls | 25 de Julho"}]
+     [:meta {:property "og:site_name" :content "Node Girls"}]
+     [:meta {:property "og:image" :content "http://nodegirls.com/images/share-image.jpg"}]
+     [:meta {:property "og:description" :content "Dia 25 de julho a Una Barro Preto irá cediar a primeira edição do Node Girls, se você é interessada no assunto, nao perca esta oportunidade."}]
      [:link {:rel "stylesheet" :href "css/gumby.css"}]
      [:link {:rel "stylesheet" :href "css/custom.css"}]
      [:title "NodeGirls"]]
